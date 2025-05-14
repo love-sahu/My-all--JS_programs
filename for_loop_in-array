@@ -1,0 +1,18 @@
+//foreach loop_____for accessing array elements
+/*let num = [3, 54, 1, 2, 4];
+for(let i=0;i<num.length;i++){
+    console.log(num[i])
+
+num.forEach((element) => {
+  console.log(element * element);
+});*/
+
+
+//for of loop_____for accessing array elements
+let num1 =[12,13,14,15,66,676,78,84]
+ for (let i of num1){
+    console.log(i)
+ }
+ for (let i in num1){
+    console.log(i)
+ }
